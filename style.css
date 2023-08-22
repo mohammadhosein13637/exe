@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(238, 238, 238);
+
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    height: 40vh;
+    background-color: rgb(138, 138, 138);
+
+}
+
+.product {
+    background-color: white;
+    width: 40%;
+    height: 15vh;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: relative;
+
+}
+
+.product_img {
+    width: 30%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+}
+.text{
+    position: absolute;
+    left: 32%;
+    top: 13%;
+}
+.category{
+    width: 100px;
+    height: 30px;
+    right: 0;
+    position: absolute;
+    rotate: 90deg;
+    background-color: green;
+
+}
