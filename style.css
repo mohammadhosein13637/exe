@@ -18,6 +18,8 @@ body {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     position: relative;
+    display: inline-block;
+    margin: 20px;
 
 }
 
@@ -36,9 +38,33 @@ body {
 .category{
     width: 100px;
     height: 30px;
-    right: 0;
+    top: 40%;
+    right: -50px;
     position: absolute;
     rotate: 90deg;
     background-color: green;
 
+}
+.category_text{
+    margin: auto;
+    text-align: center;
+
+}
+ .product:nth-child(even) .product_img{
+    right: 0;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+     border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.product:nth-child(even){
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.product:nth-child(even) .category{
+    left: -50px;
+    rotate: -90deg;
 }
